@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- META & TITLE -->
+	<title>Max's Portfolio</title>
+	<meta name="author" content="Max van Stijn">
+	<meta name="language" content="english">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="inc/css/main.css">
+	<link rel="stylesheet" type="text/css" href="inc/css/animate.css">
+
+	<!-- JS/Jquery -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="inc/js/smoothscroll.js"></script>
+	<script src="inc/js/wow.js"></script>
+
+	<script>
+		new WOW().init();
+	</script>
+</head>
+<body>
+	<div id="home"></div>
+	<nav>
+		<ul>
+			<li><a href="#home" class="smoothScroll">home</a></li>
+			<li><a href="#about" class="smoothScroll">about</a></li>
+			<li><a href="#portfolio" class="smoothScroll">portfolio</a></li>
+			<li><a href="#contact" class="smoothScroll">contact</a></li>
+		</ul>
+	</nav>
+
+	<br>
+	<br>
+	<br>
+
+	<div id="picture" class="fadeInDown animated">
+		<img src="inc/imgs/max.jpg" class="myImage" height="250px">
+		<br />
+		<h1 id="name" class="wow fadeInDown animated" data-wow-delay="2s">Hello, I am Prophet.</h1>
+	</div>
+
+	<div id="about">
+		<h1 id="name" class="wow fadeInDown animated" data-wow-delay=".5s">About Me</h1>
+		<div id="aboutMe" class="wow fadeIn animated" data-wow-delay=".7s">
+        	Hello, I am Prophet; you can also call me Max. I am an online gamer and I enjoy what I do.<br> Feel free to email me if you want help or anything related to gaming. I am a teenager with a dream and it has yet to come true.
+        	<br>
+        	<br>
+        	<b>I want to be a pro gamer.</b>
+        </div> <br />
+	</div>
+
+	<div id="portfolio">
+		<h1 id="name" class="wow fadeInDown animated" data-wow-delay=".5s">My Work</h1>
+		<br />
+
+		<div id="work">
+			<a href="http://testserver.xenondev.net" target="_blank"><img src="inc/imgs/project1.png"  width="300" height="200"/></a>
+            <a href="http://rust.xenondev.net" target="_blank"><img src="inc/imgs/project2.png"  width="300" height="200"/></a>
+            <img src="https://placehold.it/300x200" />
+            <br>
+            <img src="https://placehold.it/300x200" />
+            <img src="https://placehold.it/300x200" />
+            <img src="https://placehold.it/300x200" />
+            <br>
+		</div>
+	</div>
+
+	<div id="contact">
+		<h1 id="name" class="wow fadeInDown animated" data-wow-delay=".5s">Contact Me</h1>
+		<br />
+
+		<div id="aboutMe" class="wow fadeIn animated" data-wow-delay=".7s">
+			<form action="email.php" method="POST">
+				<p>If you need to contact me for any reason, please use the form below.</p>
+				<p>Information: this form does not work yet, I am fixing the code as you read this.</p>
+				<br>
+				<input type="text" name="email" class="txt" placeholder="Your Email"><div class="pad"></div>
+				<input type="text" name="subject" class="txt" placeholder="Subject"><div class="pad"></div>
+				<textarea name="message" class="txt" placeholder="Your Message"></textarea>
+				<br>
+				<input type="submit" class="btn" name="sendEmail" value="Send">
+			</form>
+		</div>
+	</div>
+
+
+	<!-- Dit onderop laten -->
+	<div id="social">
+		<a href="https://www.twitter.com/lolswaglord123" target="_blank"><img src="inc/imgs/twitter.png" style="padding-right:25px;"></a>
+    	<img src="inc/imgs/facebook.png" style="padding-right:25px;">
+    	<a href="https://www.instagram.com/blackberryboy043" target="_blank"><img src="inc/imgs/insta.png" style="padding-right:25px;"></a>
+    	<a href="http://steamcommunity.com/id/insertsteamuseridhere" target="_blank"><img src="inc/imgs/steam.png" style="padding-right:25px;"></a>
+	</div>
+</body>
+</html>
